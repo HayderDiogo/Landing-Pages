@@ -174,6 +174,12 @@ export default function ResultadoPage() {
               <Button
                 size="lg"
                 className="bg-white text-red-600 hover:bg-gray-100 text-xl px-12 py-6 font-bold shadow-lg transform hover:scale-105 transition-all duration-200 mb-6"
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/258863002377?text=Olá! Quero garantir minha cópia do Carb Cycling - A Dieta das Celebridades por 150 MT. Acabei de fazer o quiz!",
+                    "_blank",
+                  )
+                }
               >
                 <Zap className="w-6 h-6 mr-2" />
                 QUERO GARANTIR MINHA CÓPIA AGORA
@@ -282,6 +288,12 @@ export default function ResultadoPage() {
             <Button
               size="lg"
               className="bg-white text-purple-600 hover:bg-gray-100 text-xl px-12 py-6 font-bold shadow-lg transform hover:scale-105 transition-all duration-200"
+              onClick={() =>
+                window.open(
+                  "https://wa.me/258863002377?text=Olá! Quero garantir minha cópia do Carb Cycling - A Dieta das Celebridades por 150 MT. Acabei de fazer o quiz!",
+                  "_blank",
+                )
+              }
             >
               <Crown className="w-6 h-6 mr-2" />
               GARANTIR ACESSO AGORA - 150 MT
