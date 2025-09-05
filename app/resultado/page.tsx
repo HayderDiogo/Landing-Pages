@@ -46,6 +46,15 @@ export default function ResultadoPage() {
 
       {/* Result Section */}
       <section className="container mx-auto px-4 py-8">
+        <div className="text-center mb-8">
+          <img
+            src="/trilha-fitness-logo.png"
+            alt="Trilha Fitness"
+            className="w-48 h-48 md:w-56 md:h-56 object-contain mx-auto mb-4"
+          />
+          <p className="text-lg font-semibold text-gray-700">Método Aprovado e Recomendado</p>
+        </div>
+
         <div className="max-w-4xl mx-auto text-center mb-12">
           <Badge className="mb-4 bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 border-0 text-lg px-4 py-2">
             ✅ Quiz Completo - Resultado Personalizado
@@ -220,7 +229,7 @@ export default function ResultadoPage() {
                   "Incrível! Segui exatamente o protocolo e perdi 8kg em 3 semanas. Nunca imaginei que seria tão fácil!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-semibold mr-3 shadow-lg">
                     L
                   </div>
                   <div>
@@ -243,7 +252,7 @@ export default function ResultadoPage() {
                   centavo!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold mr-3 shadow-lg">
                     T
                   </div>
                   <div>
@@ -265,7 +274,7 @@ export default function ResultadoPage() {
                   "Finalmente um método que não me deixa com fome! Emagreci 12kg comendo carboidratos. Surreal!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-semibold mr-3 shadow-lg">
                     C
                   </div>
                   <div>

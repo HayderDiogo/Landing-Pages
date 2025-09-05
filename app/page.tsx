@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, CheckCircle, Star, Target, TrendingDown, Zap, Crown, Clock } from "lucide-react"
+import { ArrowRight, CheckCircle, Star, Target, TrendingDown, Zap, Clock } from "lucide-react"
 import Link from "next/link"
 
 export default function LandingPage() {
@@ -11,9 +11,7 @@ export default function LandingPage() {
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
-              <Crown className="w-5 h-5 text-white" />
-            </div>
+            <img src="/trilha-fitness-logo.png" alt="Trilha Fitness" className="w-12 h-12 object-contain" />
             <span className="text-xl font-bold text-gray-900">CarbCycling Pro</span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
@@ -40,6 +38,15 @@ export default function LandingPage() {
         <Badge className="mb-4 bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 hover:from-purple-100 hover:to-pink-100 border-0">
           ⭐ EXCLUSIVO: O segredo das celebridades revelado
         </Badge>
+
+        <div className="mb-8">
+          <img
+            src="/trilha-fitness-logo.png"
+            alt="Trilha Fitness"
+            className="w-32 h-32 md:w-40 md:h-40 object-contain mx-auto"
+          />
+        </div>
+
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
           <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
             Carb Cycling
@@ -84,7 +91,7 @@ export default function LandingPage() {
           </a>
         </div>
         <p className="text-sm text-gray-500 mt-4">
-          ✅ Usado por celebridades • ✅ Resultados em 21 dias • ✅ Sem efeito sanfona
+          ✅ Usado por celebridades • ✅ Resultados em 15 dias • ✅ Sem efeito sanfona
         </p>
       </section>
 
@@ -98,28 +105,28 @@ export default function LandingPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg">
+              <div className="w-20 h-20 bg-purple-500 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                 JL
               </div>
               <p className="font-semibold">Jennifer Lopez</p>
               <p className="text-sm text-gray-500">-15kg em 3 meses</p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg">
+              <div className="w-20 h-20 bg-blue-500 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                 CP
               </div>
               <p className="font-semibold">Chris Pratt</p>
               <p className="text-sm text-gray-500">-27kg para filme</p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-orange-400 to-red-400 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg">
+              <div className="w-20 h-20 bg-orange-500 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                 TR
               </div>
               <p className="font-semibold">The Rock</p>
               <p className="text-sm text-gray-500">Mantém 8% gordura</p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-green-400 to-blue-400 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg">
+              <div className="w-20 h-20 bg-green-500 rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                 SJ
               </div>
               <p className="font-semibold">Scarlett Johansson</p>
@@ -140,7 +147,7 @@ export default function LandingPage() {
           </div>
           <div>
             <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">
-              21 dias
+              15 dias
             </div>
             <div className="text-gray-600">Para ver resultados</div>
           </div>
@@ -248,6 +255,17 @@ export default function LandingPage() {
       <section className="bg-gradient-to-r from-purple-600 to-pink-600 py-20">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
+            <div className="flex items-center justify-center mb-6">
+              <img
+                src="/trilha-fitness-logo.png"
+                alt="Trilha Fitness - Método Aprovado"
+                className="w-16 h-16 object-contain mr-3"
+              />
+              <div className="text-left">
+                <p className="text-white font-semibold">Método Aprovado por</p>
+                <p className="text-purple-100 text-sm">Trilha Fitness</p>
+              </div>
+            </div>
             <h2 className="text-4xl font-bold text-white mb-4">Descubra seu plano personalizado</h2>
             <p className="text-xl text-purple-100 mb-8">
               Responda 8 perguntas rápidas e receba seu protocolo de Carb Cycling personalizado, igual ao usado pelas
@@ -302,7 +320,7 @@ export default function LandingPage() {
                   fácil!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-semibold mr-3 shadow-lg">
                     M
                   </div>
                   <div>
@@ -324,7 +342,7 @@ export default function LandingPage() {
                   "O carb cycling mudou minha vida! Posso comer carboidratos e ainda assim emagrecer. Perdi 18kg!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold mr-3 shadow-lg">
                     R
                   </div>
                   <div>
@@ -346,7 +364,7 @@ export default function LandingPage() {
                   "Finalmente um método que funciona! Me sinto como uma celebridade com meu novo corpo. 15kg a menos!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-semibold mr-3 shadow-lg">
                     A
                   </div>
                   <div>
@@ -366,9 +384,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
-                  <Crown className="w-5 h-5 text-white" />
-                </div>
+                <img src="/trilha-fitness-logo.png" alt="Trilha Fitness" className="w-8 h-8 object-contain" />
                 <span className="text-xl font-bold">CarbCycling Pro</span>
               </div>
               <p className="text-gray-400">O método das celebridades para transformar seu corpo.</p>
