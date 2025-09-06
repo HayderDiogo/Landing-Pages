@@ -173,22 +173,16 @@ export default function ResultadoPage() {
 
               {/* Pricing */}
               <div className="mb-8">
-                <div className="text-lg opacity-90 line-through mb-2">De: 650 MT</div>
+                <div className="text-lg opacity-90 line-through mb-2">De: 500 MT</div>
                 <div className="text-5xl font-bold mb-2">150 MT</div>
-                <div className="text-xl opacity-90">ou 3x de 50 MT</div>
-                <Badge className="mt-4 bg-yellow-400 text-yellow-900 text-lg px-4 py-2 border-0">77% DE DESCONTO</Badge>
+                <Badge className="mt-4 bg-yellow-400 text-yellow-900 text-lg px-4 py-2 border-0">70% DE DESCONTO</Badge>
               </div>
 
               {/* CTA Button */}
               <Button
                 size="lg"
                 className="bg-white text-red-600 hover:bg-gray-100 text-xl px-12 py-6 font-bold shadow-lg transform hover:scale-105 transition-all duration-200 mb-6"
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/258863002377?text=Olá! Quero garantir minha cópia do Carb Cycling - A Dieta das Celebridades por 150 MT. Acabei de fazer o quiz!",
-                    "_blank",
-                  )
-                }
+                onClick={() => window.open("https://wa.link/zsb74k", "_blank")}
               >
                 <Zap className="w-6 h-6 mr-2" />
                 QUERO GARANTIR MINHA CÓPIA AGORA
@@ -297,12 +291,7 @@ export default function ResultadoPage() {
             <Button
               size="lg"
               className="bg-white text-purple-600 hover:bg-gray-100 text-xl px-12 py-6 font-bold shadow-lg transform hover:scale-105 transition-all duration-200"
-              onClick={() =>
-                window.open(
-                  "https://wa.me/258863002377?text=Olá! Quero garantir minha cópia do Carb Cycling - A Dieta das Celebridades por 150 MT. Acabei de fazer o quiz!",
-                  "_blank",
-                )
-              }
+              onClick={() => window.open("https://wa.link/zsb74k", "_blank")}
             >
               <Crown className="w-6 h-6 mr-2" />
               GARANTIR ACESSO AGORA - 150 MT
